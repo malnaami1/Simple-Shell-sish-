@@ -1,0 +1,9 @@
+*.o         # Ignore object files
+*.exe       # Ignore executable files (Windows)
+*.out       # Ignore executable files (Linux/macOS)
+/bin/       # Ignore the bin directory (where executables might be stored)
+/obj/       # Ignore the obj directory (where object files might be stored)
+*.dSYM      # Ignore debug symbol files (macOS)
+*.swp       # Ignore swap files (vim)
+*~          # Ignore backup files
+sish
